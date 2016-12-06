@@ -2,7 +2,7 @@
 if(isset($_POST['submit'])){
     $to = "tak@takconnections.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
-    $names = $_POST['Name'];
+    $names = $_POST['name'];
     $subject = "New form submission from website";
     $message = $names . " wrote the following:" . "\n\n" . $_POST['message'];
 
